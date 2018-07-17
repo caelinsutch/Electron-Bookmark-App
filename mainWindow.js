@@ -1,9 +1,9 @@
 
 // Modules
-const {BrowserWindow} = require('electron')
+const {BrowserWindow} = require('electron');
 
 // BrowserWindow instance
-exports.win
+exports.win;
 
 // mainWindow createWindow fn
 exports.createWindow = () => {
@@ -17,10 +17,10 @@ exports.createWindow = () => {
   })
 
   // Devtools
-  this.win.webContents.openDevTools()
+  this.win.webContents.openDevTools();
 
   // Load main window content
-  this.win.loadURL(`file://${__dirname}/renderer/main.html`)
+  this.win.loadURL(`file://${__dirname}/renderer/main.html`);
 
   // Handle window closed
   this.win.on('closed', () => {
