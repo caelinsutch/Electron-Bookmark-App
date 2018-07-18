@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "Readit",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Master electron course project",
   "main": "main.js",
   "scripts": {
     "start": "./node_modules/.bin/electron ."
@@ -16,12 +16,12 @@
     "start",
     "tutorial"
   ],
-  "author": "GitHub",
+  "author": "Caelin Sutch",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/electron/electron-quick-start/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://caelinsutch.com",
   "devDependencies": {
     "electron": "*",
     "devtron": "*",

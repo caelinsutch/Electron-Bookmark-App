@@ -13,11 +13,12 @@ exports.createWindow = () => {
     height: 650,
     minWidth: 350,
     maxWidth: 650,
-    minHeight: 310
+    minHeight: 310,
+    icon: `${__dirname}/PNG/icon/64x64.png`
   })
 
   // Devtools
-  this.win.webContents.openDevTools();
+  // this.win.webContents.openDevTools();
 
   // Load main window content
   this.win.loadURL(`file://${__dirname}/renderer/main.html`);

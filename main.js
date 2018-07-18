@@ -6,7 +6,7 @@ const readItem = require('./readitem')
 
 
 // Enable Electron-Reload
-require('electron-reload')(__dirname)
+// require('electron-reload')(__dirname)
 
 // // Listen for new item
 ipcMain.on('new-item', (e, itemURL) => {
